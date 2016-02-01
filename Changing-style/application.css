@@ -1,0 +1,9 @@
+.tour {
+  border: 1px solid red;
+}
+.comments {
+  display: none;
+}
+.highlighted {
+  border:1px solid #000;
+}

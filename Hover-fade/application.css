@@ -1,0 +1,6 @@
+.highlighted {
+  border: 1px solid red;
+}
+.comments {
+  display: none;
+}
