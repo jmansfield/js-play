@@ -1,0 +1,17 @@
+.tour {
+  border: 1px solid red;
+  position: relative;
+  top: 0;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+.comments {
+  display: none;
+}
+.highlighted {
+  border:1px solid #000;
+  top: -20px;
+}
