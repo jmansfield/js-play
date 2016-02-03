@@ -1,3 +1,5 @@
+// This files contains the custom code that uses/calls to jQuery
+
 // This event handler waits for the page to load before executing the code inside to be run
 $(document).ready(function() {
   $("h1"); //Selects all H1's
