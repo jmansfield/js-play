@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   // This event handler waits for a click event on only buttons inside the class vacation before executing the code inside
   $('.vacation').on('click', 'button', function() {
-    //Here we create a variable vacation that checks the dom for the closest element to the thing being clicked with the class vacation
+    //Here we create a variable vacation that checks the DOM for the closest element to the thing being clicked with the class vacation
     var vacation = $(this).closest('.vacation');
     // Here we check the data tag in the html element vacation to retrieve it's price and create a variable out of it
     var amount = vacation.data('price');
